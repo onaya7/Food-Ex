@@ -199,9 +199,11 @@ header.sticky{
 	justify-content: space-between;
 	gap: 20px;
 }
+
 .box-img img{
 	width: 100%;
 	height: auto;
+	border-radius: 1rem;
 }
 .box-text h4{
 	color: var(--text-color);
@@ -566,11 +568,12 @@ header.sticky{
 		text-align: center;
 	}
 	.home-img img{
-		width: 400px;
+		width: 300px;
 		max-width: 100%;
-		height: auto;
+		height: 350px;
 	}
 	.about{
+		margin-top: 25px;
 		grid-template-columns: 1fr;
 		grid-gap: 1rem;
 	}

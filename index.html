@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Food-Ex</title>
 	<link rel="stylesheet" type="text/css" href="static/css/style.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 	<link rel="stylesheet"
   href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
@@ -37,12 +38,12 @@
 	</header>
 
 	<!---home--->
-	<section class="home" id="home">
+	<section class="home" data-aos="fade-up" data-aos-delay="300" id="home">
 		<div class="home-text">
 			<h3>Welcome</h3>
 			<h1>Enjoy The Organic Food</h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut</p>
-			<a href="#" class="btn">About Us</a>
+			<a href="#" class="btn">Explore . . . .</a>
 		</div>
 
 		<div class="home-img">
@@ -65,22 +66,22 @@
 	</section>
 
 	<!---food menu--->
-	<section class="menu" id="menu">
+	<section class="menu"  id="menu">
 		<div class="center-text">
 			<h3>Food Menu</h3>
 			<h2>Delicious food</h2>
 		</div>
 
-		<div class="menu-content">
+		<div class="menu-content" data-aos="zoom-in" data-aos-delay="300">
 			<div class="box">
 				<div class="box-content">
 					<div class="box-img">
-						<img src="static/img/food.png">
+						<img src="static/img/fried.png">
 					</div>
 
 					<div class="box-text">
-						<h4>Corn-Shrimp</h4>
-						<p>Whales and darkness moving form cattle</p>
+						<h4>Fried Broccoli</h4>
+						<p>Fried broccoli with garlic shrimp thai food</p>
 						<h6>$32</h6>
 					</div>
 				</div>
@@ -89,12 +90,12 @@
 			<div class="box">
 				<div class="box-content">
 					<div class="box-img">
-						<img src="static/img/food.png">
+						<img src="static/img/salad.png">
 					</div>
 
 					<div class="box-text">
 						<h4>Vegetarian Salad</h4>
-						<p>Healthy hearty salad of tuna, green beans, tomatoes, eggs, potatoes, black olives</p>
+						<p>Healthy hearty salad of tuna, green beans, tomatoes and eggs</p>
 						<h6>$43</h6>
 					</div>
 				</div>
@@ -103,12 +104,12 @@
 			<div class="box">
 				<div class="box-content">
 					<div class="box-img">
-						<img src="static/img/food.png">
+						<img src="static/img/tortilla.png">
 					</div>
 
 					<div class="box-text">
 						<h4>Tortilla wrap </h4>
-						<p>Spicy Tortilla wrap with falafel and fresh salad. vegan tacos. vegetarian healthy food.</p>
+						<p>Spicy Tortilla wrap with falafel and fresh salad. vegan tacos.</p>
 						<h6>$60</h6>
 					</div>
 				</div>
@@ -117,7 +118,7 @@
 			<div class="box">
 				<div class="box-content">
 					<div class="box-img">
-						<img src="static/img/food.png">
+						<img src="static/img/vegetables.png">
 					</div>
 
 					<div class="box-text">
@@ -131,7 +132,7 @@
 			<div class="box">
 				<div class="box-content">
 					<div class="box-img">
-						<img src="static/img/food.png">
+						<img src="static/img/grilled.png">
 					</div>
 
 					<div class="box-text">
@@ -145,7 +146,7 @@
 			<div class="box">
 				<div class="box-content">
 					<div class="box-img">
-						<img src="static/img/smoothie.jpg">
+						<img src="static/img/smoothie.png">
 					</div>
 
 					<div class="box-text">
@@ -159,12 +160,12 @@
 		</div>
 
 		<div class="box-btn">
-			<a href="#" class="btn">About Us</a>
+			<a href="#" class="btn">More menu . . . .</a>
 		</div>
 	</section>
 
 	<!---team--->
-	<section class="team" id="team">
+	<section class="team" data-aos="slide-right" data-aos-delay="300" id="team">
 		<div class="center-text">
 			<h3>Team</h3>
 			<h2>Our Experience Chefs</h2>
@@ -229,7 +230,7 @@
 
 	<!---newsletter--->
 	<section>
-		<div class="container">
+		<div class="container"data-aos="flip-up" data-aos-delay="300">
 			<div class="newsletter-content">
 				<div class="news-img">
 					<img src="static/img/discount.svg">
@@ -305,7 +306,7 @@
 	</section>
 
 	<!---contact--->
-	<section class="contact" id="contact">
+	<section class="contact"  id="contact">
 		<div class="contact-box">
 			<h3>FoodEx</h3>
 			<h5>Connect With Us</h5>
@@ -349,6 +350,10 @@
 	</div>
 
 	<!---custom js link--->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
 	<script type="text/javascript" src="static/js/script.js"></script>
 
 </body>
